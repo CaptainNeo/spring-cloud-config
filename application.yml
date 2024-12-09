@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AYAU0K6BV/LtdDEPLLlJgRtCLRQvdkV67quBZlJvwwnXLx7IDIi1eUZsTnddgI3oiQEGuyLt/4h0GlE9WEIE0OXXwzxxfiA6JW66rXhytU86e0WNwsGycFtiVAxd+Q1dB2ED4vfVs9Iq9nN2zF6F2QzQAkme4uvTuLjMEu4DVXFevPz0q+D6nfGpbCs1citrQXQcqsZ9SzL8OnA+hQdL3W+W2KwTnKKnfs5z4Jv6P/GYy7p1sRlP/TDnlQ31RK5nEqPixSWGDvMiOoyJbezrbyRJEnBEpQiiR21UAs52Uc8DjrfcLUZpVIKRyXVaz3OxoZOVh8eRGDA4dmKuS0kEQPtEYCB6MLT4IGnpt1daVqqsUxES7BJQ3XHlMkze+LYApxorfA1pvGRH0hY+q+ZYH95pYoBhKK3iVQcKvSd3Fui2kHTTXY+V3kH3mxYT/LAJWGMPyyBpLj2ZHf5FaQWnlzZ60ypg/9dZHagcNqJe23RVacGJa0zqbUI1NtSVwHVHgZhZt9IE+RKNxgqWKGzZscLn6+dmyj6xFvEwswbTeIUsBg=='
+
+token:
+  expiration_time: 86400000
+  secret: user_token_native_application_changed_#1
+
+gateway:
+  ip: 192.168.45.36
